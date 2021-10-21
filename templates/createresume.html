@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Create New Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Create Resume</h2>
+  <form class="form" method="POST">
+    <div class="form-group">
+      <label for="name">First name:</label>
+      <input type="text" class="form-control" id="name" placeholder="first name" name="firstname">
+    </div>
+     <div class="form-group">
+      <label for="name">Last name:</label>
+      <input type="text" class="form-control" id="name" placeholder="Last name" name="lastname">
+    </div>
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" class="form-control" id="email" placeholder="abc@example.com" name="email">
+    </div>
+    <div class="form-group">
+    <label for="about">About:</label>
+      <textarea type="text" class="form-control" id="about" name="about" placeholder="Enter about yourself" row="5"></textarea>
+    </div>
+     <div class="form-group">
+      <label for="DOB">Date of Birth:</label>
+      <input type="date" class="form-control" id="D_O_B" placeholder="dd/MM/yy" name="DOB">
+    </div>
+     <div class="form-group">
+      <label for="number">Mobile No:</label>
+      <input type="number" class="form-control" id="num" placeholder="+92" name="number">
+    </div>
+     <div class="form-group">
+      <label for="experience">Experience:</label>
+      <textarea type="text" class="form-control" id="experience" name="experience" placeholder="Enter about your experience" row="5"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="education">Education:</label>
+      <textarea type="text" class="form-control" id="education" name="education" placeholder="Tell about your education" row="5"></textarea>
+    </div>
+        <div class="form-group">
+    <label for="skills">Skills:</label>
+      <textarea type="text" class="form-control" id="skills" name="skills" placeholder="Enter about your skills" row="5"></textarea>
+    </div>
+        <div class="form-group">
+    <label for="address">Address:</label>
+      <textarea type="text" class="form-control" id="address" name="address" placeholder="Enter your address" row="5"></textarea>
+    </div>
+       <div class="form-group">
+    <label for="interests">Interests:</label>
+      <textarea type="text" class="form-control" id="interests" name="interests" placeholder="Tell about your interests" row="5"></textarea>
+    </div>
+        <div class="form-group">
+    <label for="awards">Awards:</label>
+      <textarea type="text" class="form-control" id="awards" name="awards" placeholder="" row="5"></textarea>
+    </div>
+
+    </div>
+    {# 
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    #}
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</div>
+</body>
+</html>
